@@ -62,7 +62,6 @@ public final class EqualsUtil {
      * arrays. See class comment.
      */
     static public boolean areEqual(Object aThis, Object aThat) {
-        //System.out.println("Object");
         return aThis == null ? aThat == null : aThis.equals(aThat);
     }
 }
